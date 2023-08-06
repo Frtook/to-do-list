@@ -50,18 +50,20 @@
 }
 
 .main .task{
-  display: inline-flex;
-  width: 100%;
+  display: flex;
+  width: 80%;
   flex-flow: column nowrap;
+  background-color: #e3e3e3;
+  margin: auto;
 }
 
 .main .task p{
   position: relative;
   background-color: #eee;
-  width: 80%;
+  width: 100%;
   align-self: center;
   height: 55px;
-  margin-top:1px ;
+  margin-top:0px ;
   font-size: 25px;
 }
 
