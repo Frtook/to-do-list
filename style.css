@@ -1,0 +1,83 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .my-list{
+  display: flex;
+  background-color: rgb(244, 66, 54);
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  flex-flow: column wrap;
+}
+.main .my-list .text{
+  align-self: center;
+  /* flex-grow: 2; */
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight:bold ;
+
+}
+.main .my-list .input{
+  display: flex;
+  justify-content: center;
+}
+.main .my-list .input input{
+  padding: 0 0 0 20px;
+  height: 50px;
+  border: none;
+  width: 75%;
+  align-self: center;
+  font-size: 25px;
+  
+}
+.main .my-list .input input:focus{
+  outline: 1px solid navy ;
+  
+}
+
+
+.main .my-list .input button{
+  height: 50px;
+  width: 15%;
+  border: none;
+  font-size:25px ;
+}
+
+.main .my-list .input button:hover{
+  background-color: #ddd;
+  transition-delay:0.08s ;
+}
+
+.main .task{
+  display: inline-flex;
+  width: 100%;
+  flex-flow: column nowrap;
+}
+
+.main .task p{
+  position: relative;
+  background-color: #eee;
+  width: 80%;
+  align-self: center;
+  height: 55px;
+  margin-top:1px ;
+  font-size: 25px;
+}
+
+.main .task p span{
+  width: 50%;
+  padding: 0 0 0 20px;
+}
+.main .task p button{ 
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: black;
+  border: none;
+  font-size: 30px;
+  
+}
+.main .task p button:hover{ 
+  color: #aaa;
+}
